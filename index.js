@@ -18,7 +18,7 @@ app.use(cors({origin: true}));
 app.use("/api/v1", chatRoutes);
 
 app.get("/", (req, res) => {
-    res.status(200).json({ msg: "Welcome to OpenApi" });
+    res.status(200).json({ msg: "Welcome to OpenApi Ask Anything" });
   });
 
   app.all("*", (req, res) => {
